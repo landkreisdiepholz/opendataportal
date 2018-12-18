@@ -1,0 +1,230 @@
+.startheaderblock{
+    color: #c9c9c9;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+.startheaderblock a:link{
+    color:#c9c9c9;
+}
+.startheaderblock a:visited{
+    color:#c9c9c9;
+}
+.startheaderblock a:hover{
+    color:#0d72a7;
+}
+
+.field-content{
+    width: 500px;
+}
+
+.subbtn{
+    margin-top: 30px;
+}
+.diagram_areas{
+    margin-top: 10px;
+}
+
+#maparea{
+    margin-top:30px;
+}
+#maparea_cluster{
+    margin-top:30px;
+}
+
+
+#datatable{
+    margin-top:30px;
+}
+
+.file_icon{
+    width:50px;
+    margin-right: 10px;
+    float:left;
+}
+
+.download{
+    margin-top: 10px;
+}
+
+#download_end{
+    clear:both;
+}
+.download_name {
+
+    font-weight: bold;
+    margin-bottom:3px;
+}
+
+.apps_kat_row{
+    width: 1140px;
+    text-align:center;
+}
+.app_row_entry{
+    width: 360px;
+    float:left;
+    margin-left: 5px;
+    text-align:left;
+    margin-top: 5px;
+}
+.app_row_link{
+    text-align:left;
+    width: 250px;
+    height: 25px;
+}
+.app_row_img{
+    text-align:left;
+    width: 250px;
+}
+.app_row_desc{
+    margin-top: 5px;
+    text-align:left;
+    width: 250px;
+}
+.app_link_kat1{
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: black;
+    display: inline;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    border: 1px solid #5bc0de;
+    padding: 1px 4px 2px;
+    vertical-align: baseline;
+    white-space: nowrap;
+    margin-right: 10px;
+}
+.app_link_kat2{
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: black;
+    display: inline;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    border: 1px solid #5bc0de;
+    padding: 1px 4px 2px;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+.app_link_kat3{
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: black;
+    display: inline;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    border: 1px solid #d9534f;
+    padding: 1px 4px 2px;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+#btn_area{
+    margin-bottom: 5px;
+}
+.grafiks{
+    margin-top:5px;
+}
+
+.toggle-vis-active{
+    text-decoration:none;
+    color:#3b3b3b;
+}
+.toggle-vis-active:active{
+
+}
+
+
+.toggle-vis-inactive{
+}
+
+.toggle-vis-inactive:active{
+
+}
+
+hr{
+//    border-color:#0d72a7;
+    border-color: #ccc;
+}
+
+.kreiskommunegemeindeselect{
+    height: 33px;
+    border-color: rgb(204, 204, 204);
+}
+.nodeko:hover{
+    text-decoration: none;
+    color:rgb(0, 84, 137);
+}
+.nodeko{
+    text-decoration: none;
+    color:rgb(204, 204, 204);
+}
+.nodeko:active{
+    text-decoration: none;
+}
+
+@media print
+{
+    .noprint, .noprint *
+    {
+        display: none !important;
+    }
+    a[href]:after {
+        content: none !important;
+    }
+}
+
+#feldereinundausblendenbutton{
+    background-color:#f8f8f8;
+    color:#0A77BD;
+}
+
+#feldlistenelem{
+    background-color:#e7e7e7;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+
+}
+
+#feldlistenelembtn{
+    float:right;
+    margin-right: 3px;
+    margin-top:  3px;
+}
+
+.color_marker{
+    font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.select{
+    border-color: #ccc;
+    height: 35px;
+}
+#markerinfo{
+    float:left;
+    margin-top: 10px;
+}
+.map_legend_entry {
+ float:left;
+ margin-right: 5px;
+    margin-top: 5px;
+    padding:2px;
+}
+.tableaddbtn{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float:left;
+}
+#tabelle_length{
+    width: 400px !important;
+}
