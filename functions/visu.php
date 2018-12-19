@@ -234,7 +234,7 @@ function get_chart_config($_grafik_id){
 
                 foreach ($lines as $yspalte) {
                     $r = array();
-                    $sql = "SELECT " . $yspalte . "," . $grafik_data["sum_spalte"] . " FROM " . $grafik_data["mysql_table_name"] . " " . $where;
+                    $sql = "SELECT " . $yspalte . "," . $grafik_data["sum_spalte"] . " FROM " . $grafik_data["mysql_table_name"] . " " . $where." ORDER BY STR_TO_DATE(".$grafik_data["sum_spalte"].",'%d.%m.%Y')";
                     $res = mysql_query($sql);
 
                     while ($row = mysql_fetch_array($res, MYSQL_ASSOC)) {
